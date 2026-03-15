@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Akıllı Hoparlör Mini",
+    "category": "Ses Sistemi",
+    "image": "assets/products/product1.png",
+    "price": 2499,
+    "description": "Kompakt tasarımı ve güçlü sesi ile ev kullanımına uygun bir akıllı hoparlör modelidir. Eğitim amacıyla katalog listeleme, detay sayfası ve sepet işlemlerini göstermek için eklenmiştir.",
+    "rating": 4.8
+  },
+  {
+    "id": 2,
+    "name": "Kablosuz Kulaklık Pro",
+    "category": "Aksesuar",
+    "image": "assets/products/product2.png",
+    "price": 1899,
+    "description": "Günlük kullanım için ergonomik yapıya sahip kablosuz kulaklık. Flutter GridView yapısı, ürün kartları ve görsel gösterimi için örnek ürün olarak kullanılmıştır.",
+    "rating": 4.6
+  },
+  {
+    "id": 3,
+    "name": "Akıllı Masa Lambası",
+    "category": "Ev Teknolojisi",
+    "image": "assets/products/product3.png",
+    "price": 1399,
+    "description": "Modern tasarımıyla çalışma alanına uyum sağlayan akıllı masa lambası. Bu ürün JSON veri okuma ve detay ekranı senaryosu için uygulamaya dahil edilmiştir.",
+    "rating": 4.7
+  },
+  {
+    "id": 4,
+    "name": "Tablet Stand Plus",
+    "category": "Ofis",
+    "image": "assets/products/product4.png",
+    "price": 799,
+    "description": "Telefon ve tabletleri rahat kullanım için destekleyen sağlam bir stand modelidir. Basit katalog uygulamasında ürün sayısını artırmak ve GridView görünümünü zenginleştirmek için kullanılmıştır.",
+    "rating": 4.5
+  }
+]
