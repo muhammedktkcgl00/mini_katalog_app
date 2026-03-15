@@ -1,77 +1,27 @@
 # Mini Katalog Uygulaması
 
-Bu proje, **Flutter günlük eğitim / proje çıktısı raporunda** istenen maddelere uygun olacak şekilde hazırlanmış basit bir mobil katalog uygulamasıdır.
+Bu proje Flutter kullanılarak geliştirilmiş basit bir ürün katalog uygulamasıdır.
 
-## Proje Özeti
+## Özellikler
 
-Uygulamada kullanıcı:
+- Ürün listeleme
+- GridView ürün kartları
+- Ürün detay sayfası
+- Navigator ile sayfa geçişleri
+- JSON veri modeli kullanımı
+- Sepete ekleme (state update)
 
-- Ana sayfada ürünleri görebilir
-- Ürünleri GridView ile listeleyebilir
-- Ürün detay sayfasına geçebilir
-- Ürünü sepete ekleyebilir
-- Sepet ekranında ürünleri görüntüleyebilir
-- JSON veri yapısından ürünleri okuyabilir
-
-## Kullanılan Yapılar
+## Kullanılan Teknolojiler
 
 - Flutter
 - Dart
-- `material.dart`
-- `StatelessWidget`
-- `StatefulWidget`
-- `Navigator.push / pop`
-- `MaterialPageRoute`
-- JSON veri okuma
-- `fromJson / toJson`
-- `GridView.builder`
-- `ListView`
-- Asset kullanımı
-
-## Klasör Yapısı
-
-```bash
-lib/
-  main.dart
-  models/product.dart
-  data/products.json
-  screens/home_screen.dart
-  screens/product_detail_screen.dart
-  screens/cart_screen.dart
-  widgets/product_card.dart
-  services/product_service.dart
-
-assets/
-  banner.png
-  products/
-```
-
-## Çalıştırma Adımları
-
-1. Flutter kurulu olmalıdır.
-2. Proje klasörüne girin.
-3. Terminalde şu komutları çalıştırın:
-
-```bash
-flutter pub get
-flutter run
-```
+- Material UI
 
 ## Flutter Sürümü
 
-Bu proje Flutter 3.x ve Dart 3.x yapısına uygun olacak şekilde hazırlanmıştır.
+Flutter 3.x
 
-## Proje Teslim İçin Uygun Maddeler
+## Projeyi Çalıştırma
 
-- GitHub'a yüklenebilir proje yapısı vardır
-- README.md dosyası vardır
-- Ürün liste ekranı vardır
-- Ürün detay ekranı vardır
-- Sayfa geçişleri vardır
-- JSON veri modeli vardır
-- Asset kullanımı vardır
-- Basit state güncellemesi ile sepet sistemi vardır
-
-## Not
-
-Bu proje **eğitim ve demo amaçlıdır**. Gerçek e-ticaret altyapısı veya canlı sipariş sistemi içermez.
+1. Flutter kurulu olmalıdır
+2. Proje klasörüne gidin
